@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python exe_acic.py --config acic2018.yaml --current_id "9333a461d3944d089ef60cdf3b88fd40" --pretrain 1 --train_sid 1
