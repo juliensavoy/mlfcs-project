@@ -9,8 +9,6 @@
 
 This repository provides the **official PyTorch implementation** of the paper:
 
-Official **PyTorch implementation** of the paper:
-
 > **A Generative Framework for Causal Estimation via Importance-Weighted Diffusion Distillation**  
 > *Xinran Song, Tianyu Chen, Mingyuan Zhou*  
 > [[arXiv:2505.11444](https://arxiv.org/abs/2505.11444)]
