@@ -15,8 +15,7 @@ This repository provides the **official PyTorch implementation** of the paper:
 
 ## Overview
 
-**IWDD (Importance-Weighted Diffusion Distillation)** is a generative framework for causal estimation that combines diffusion model pretraining with importance-weighted score distillation.  
-It enables accurate estimation of potential outcomes and treatment effects with reduced gradient variance and without explicit computation of inverse probability weights.  
+**IWDD (Importance-Weighted Diffusion Distillation)** is a generative framework for causal estimation that combines diffusion model pretraining with importance-weighted score distillation. It enables accurate estimation of potential outcomes and treatment effects with reduced gradient variance and without explicit computation of inverse probability weights.  
 IWDD achieves state-of-the-art results on benchmark datasets.
 
 ## Installation
@@ -49,8 +48,7 @@ pip install -r requirements.txt
 
 ### Dataset Preparation
 
-The preprocessing procedure for datasets follows the same pipeline as [DiffPO](https://github.com/yccm/DiffPO).  
-Once the original ACIC 2018, ACIC 2016, and IHDP dataset is downloaded,  run the corresponding preprocessing notebook (e.g., `load_ihdp.ipynb`) to generate causal masks and normalized data. The processed files will be saved under:
+The preprocessing procedure for datasets follows the same pipeline as [DiffPO](https://github.com/yccm/DiffPO). Once the original ACIC 2018, ACIC 2016, and IHDP dataset is downloaded,  run the corresponding preprocessing notebook (e.g., `load_ihdp.ipynb`) to generate causal masks and normalized data. The processed files will be saved under:
 ```
 data_ihdp/
 ├── ihdp_norm_data/
