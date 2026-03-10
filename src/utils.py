@@ -126,7 +126,12 @@ def train(
                 pehe = torch.sqrt(torch.tensor(pehe_val.avg))
 
 
-                print(f"RMSE Y0 = {y0:.5g}, RMSE Y1 = {y1:.5g}, PEHE VAL = {pehe:.5g}, Wasserstein Y0 = {wass_y0:.5g}, Wasserstein Y1 = {wass_y1:.5g}")
+                # On retire les métriques Wasserstein car elles ne sont pas toujours calculées.
+# Sinon Python plante avec "UnboundLocalError: wass_y0 not defined".
+# Cette modification permet au code de tourner aussi sur d'autres environnements
+# (Windows local ou cluster ETH) sans dépendre du calcul Wasserstein.
+
+                print(f"RMSE Y0 = {y0:.5g}, RMSE Y1 = {y1:.5g}, PEHE VAL = {pehe:.5g}")
 
         # Final in-sample evaluation after training
     print("Starting final in-sample evaluation on training set...")
