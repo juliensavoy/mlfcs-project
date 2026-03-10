@@ -9,7 +9,7 @@ from src.main_model import DiffPO
 from src.utils import train, evaluate, train_sid, evaluate_sid
 from dataset_acic import get_dataloader
 
-from PropensityNet import load_data
+# from PropensityNet import load_data
 
 import wandb
 import copy
