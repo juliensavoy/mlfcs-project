@@ -1,7 +1,7 @@
 # IWDD: Importance-Weighted Diffusion Distillation for Causal Estimation
 
 
-
+COMMANDE POUR RUUUUUNNNNNN CESTTTT python exe_acic.py --config acic2018.yaml --current_id 00ea30e866f141d9880d5824a361a76a --pretrain 1 --train_sid 1 --device cpu
 ## Installation
 
 ### Prerequisites
